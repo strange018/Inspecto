@@ -1,0 +1,24 @@
+{
+  "collections": {
+    "users": {
+      "fields": {
+        "email": "string",
+        "subscription": "string",
+        "updatedAt": "timestamp"
+      }
+    },
+    "reports": {
+      "fields": {
+        "id": "string",
+        "businessName": "string",
+        "industry": "string",
+        "region": "string",
+        "size": "string",
+        "complianceScore": "number",
+        "date": "string",
+        "unlocked": "boolean",
+        "createdAt": "timestamp"
+      }
+    }
+  }
+}

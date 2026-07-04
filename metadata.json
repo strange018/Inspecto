@@ -1,0 +1,6 @@
+{
+  "name": "InspectoB2B Compliance Auditor",
+  "description": "Mobile-first B2B compliance auditor. Upload photos, complete dynamic checklists, and instantly generate professionally formatted, audit-ready compliance PDF reports with regional hazard fixes.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

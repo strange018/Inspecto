@@ -1,0 +1,19 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Users Profile and Subscription Registry
+    match /users/{email} {
+      allow read, write: if true;
+    }
+
+    // Compliance Audit Reports Collection
+    match /reports/{reportId} {
+      allow read, write: if true;
+    }
+    
+    // Global Catch-all Safety Net
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}
